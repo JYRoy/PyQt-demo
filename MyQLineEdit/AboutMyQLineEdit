@@ -1,0 +1,5 @@
+自定义的QLineEdit，当输入文本之后，禁止选中复制粘贴等操作
+
+MyQLineEdit类继承了QLineEdit类，并重写QLineEdit类中的mouseMoveEvent方法和keyPressEvent方法
+
+这样还可以自己定义一些其他操作，比如ouseDoubleClickEvent 鼠标双击之类的
